@@ -4,8 +4,27 @@
 La Conexión del bot GPT-4 Sidney desde Bing a Tavern o SillyTavern desde Termux.
 
 ## ¿Como Obtener la cookies?
+Requisitos:
 
-En espera..
+Una computadora con Microsoft Edge instalado.
+Inicia sesión con la cuenta de la que deseas extraer las cookies.
+Pasos:
+
+1. Instala la Extensión "Cookie Edit":
+
+Abre Microsoft Edge en tu computadora.
+En el navegador, busca "Cookie Edit" y procede a instalar esta extensión.
+Inicia una Conversación con Bing:
+
+2. Ve a la página principal del navegador.
+Interactúa con la extensión seleccionando el ícono que se asemeja a una conversación con Bing. Mantén una conversación mínima de al menos dos mensajes.
+
+3. Exporta las Cookies:
+
+Después de interactuar, busca el ícono de  extensión y haz clic en él.
+A continuación, selecciona la opción para exportar las cookies en un archivo JSON.
+
+Lo tendras copiado, y solo lo tienes que pegar en el archivo Cookie.json que esta en este repositorio o crear uno en block de notas pegarlo y nombrarlo cookie.json.
 
 ## ¿Tiene algun limite?
 Sí, existe un límite diario, pero no es excesivo.
