@@ -19,13 +19,13 @@ Para instalar en Termux, sigue estos pasos:
 1. Abre Termux en tu dispositivo y pon:
 
   ```shell
-   pkg install git
+    pkg install git
  ```
 
 2. Clona el repositorio este ejecutando el siguiente comando:
 
   ```shell
-   git clone https://github.com/flannn3/Bing-Termux
+    git clone https://github.com/flannn3/Bing-Termux
  ```
 
 Esto descargará el código fuente de Biba en tu directorio actual.
