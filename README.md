@@ -10,7 +10,7 @@ En espera..
 ## ¿Tiene algun limite?
 Sí, existe un límite diario, pero no es excesivo.
 
-## Problemas
+## Captcha
 Si te encuentras con problemas como el Captcha, la solución es relativamente sencilla. Sigue estos pasos para resolverlo:
 
 1. Ve a la aplicación de Bing en tu navegador web y accede con la misma cuenta desde la cual obtuviste la cookie.
@@ -22,7 +22,7 @@ Recuerda que es importante que utilices la misma cuenta desde la cual obtuviste 
 ## Baneos
 El ban, un miedo de algunas personas, "es raro que te baneen ya que desde las mismas La documentación establece literalmente que el modelo no está diseñado para seguir estrictamente las reglas que se le indican en sus indicaciones,by u/Successful_Cap_390", Asi que los jailbreak no son un problemas, a menos que lo uses para cosas ilegales como fabricacion de codigos maliciosos o como crear cosas ilegales, te recuerdo que bing usa tu ip al navegar por internet.
 
-## Cómo instalar en Termux
+## Instalacion en Termux
 Para instalar Biba en Termux, sigue estos pasos:
 
 1. Abre Termux en tu dispositivo.
