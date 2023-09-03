@@ -16,22 +16,27 @@ El ban, un miedo de algunas personas, "es raro que te baneen ya que desde las mi
 ## Instalacion en Termux
 Para instalar en Termux, sigue estos pasos:
 
-1. Abre Termux en tu dispositivo.
+1. Abre Termux en tu dispositivo y pon:
+
+  ```shell
+   pkg install git
+ ```
 
 2. Clona el repositorio este ejecutando el siguiente comando:
 
   ```shell
    git clone https://github.com/flannn3/Bing-Termux
  ```
+
 Esto descargará el código fuente de Biba en tu directorio actual.
 
-1. Navega al directorio "Biba" utilizando el comando "cd". Ejecuta el siguiente comando para hacerlo:
+3. Navega al directorio "Biba" utilizando el comando "cd". Ejecuta el siguiente comando para hacerlo:
 
      ```shell
     cd Bing-Termux
      ```
     
-2. Una vez que estés en el directorio "bing", ejecuta el archivo "instalacion.sh" con el siguiente comando:
+4. Una vez que estés en el directorio "bing", ejecuta el archivo "instalacion.sh" con el siguiente comando:
 
      ```shell
     sh instalacion.sh
@@ -39,7 +44,7 @@ Esto descargará el código fuente de Biba en tu directorio actual.
 
      Esto lo instala e inicia.
    
-4. Si quieres volver a iniciarlo (Sera mas rapido que la instalacion) solo tienes que abrir el directorio con:
+5. Si quieres volver a iniciarlo (Sera mas rapido que la instalacion) solo tienes que abrir el directorio con:
 
      ```shell
     cd Bing-Termux
