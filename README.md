@@ -52,7 +52,7 @@ Esto descargará el código fuente de Biba en tu directorio actual.
    Y ejecutar con este ultimo:
 
      ```shell
-    sh instalar.sh
+    sh instalacion.sh
      ```
    Sera mas rapido al ya estar instalado.
      
