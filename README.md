@@ -14,7 +14,7 @@ Sí, existe un límite diario, pero no es excesivo.
 El ban, un miedo de algunas personas, "es raro que te baneen ya que desde las mismas La documentación establece literalmente que el modelo no está diseñado para seguir estrictamente las reglas que se le indican en sus indicaciones,by u/Successful_Cap_390", Asi que los jailbreak no son un problemas, a menos que lo uses para cosas ilegales como fabricacion de codigos maliciosos o como crear cosas ilegales, te recuerdo que bing usa tu ip al navegar por internet.
 
 ## Instalacion en Termux
-Para instalar Biba en Termux, sigue estos pasos:
+Para instalar en Termux, sigue estos pasos:
 
 1. Abre Termux en tu dispositivo.
 
