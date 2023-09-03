@@ -29,23 +29,27 @@ Para instalar Biba en Termux, sigue estos pasos:
 
 2. Clona el repositorio Biba ejecutando el siguiente comando:
 
-    ```shell
+  ```shell
    git clone https://github.com/flannn3/Bing-Termux
-  ```
+ ```
 Esto descargará el código fuente de Biba en tu directorio actual.
 
 1. Navega al directorio "Biba" utilizando el comando "cd". Ejecuta el siguiente comando para hacerlo:
+
      ```shell
     cd Bing-Termux
      ```
     
 2. Una vez que estés en el directorio "Biba", ejecuta el archivo "instalacion.sh" con el siguiente comando:
+
      ```shell
     sh instalacion.sh
      ```
+
      Esto lo instala e inicia.
    
 4. Si quieres volver a iniciarlo (Sera mas rapido que la instalacion) solo tienes que abrir el directorio con:
+
      ```shell
     cd Bing-Termux
      ```
@@ -54,6 +58,7 @@ Esto descargará el código fuente de Biba en tu directorio actual.
      ```shell
     sh iniciar.sh
      ```
+
 ##  Creditos
 Este trabajo solo fue con el proposito de facilitar la ejecucion para Termux Todo trabajo y credito se lo lleva:
 https://github.com/Barbariskaa/Biba
