@@ -1,4 +1,4 @@
-<h1 align="center">Biba</h1>
+<h1 align="center">Bing-Termux</h1>
 
 ## ¿Qué es esto?
 Conexión del bot GPT-4 Sidney desde Bing a Tavern o SillyTavern desde Termux.
@@ -28,13 +28,13 @@ Para instalar Biba en Termux, sigue estos pasos:
 2. Clona el repositorio Biba ejecutando el siguiente comando:
 
    ```shell
-   git clone https://github.com/Barbariskaa/Biba.git
+   git clone https://github.com/flannn3/Bing-Termux
    ```
 Esto descargará el código fuente de Biba en tu directorio actual.
 
 1. Navega al directorio "Biba" utilizando el comando "cd". Ejecuta el siguiente comando para hacerlo:
     ```shell
-    cd Biba
+    cd Bing-Termux
      ```
     
 2. Una vez que estés en el directorio "Biba", ejecuta el archivo "start.sh" con el siguiente comando:
