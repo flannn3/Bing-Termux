@@ -1,57 +1,42 @@
 <h1 align="center">Biba</h1>
 
-## Что это?
-Подвязка GPT-4 бота Сидни с Бинга к Таверне
+## ¿Qué es esto?
+Conexión del bot GPT-4 Sidney desde Bing a la Taberna
 
-## Что можно?
-Смут.</br>
-14-20к токенов.</br>
-Кодинг с рабочим стримом (плюс в сравнении со скалой).</br>
-Подтягивать данные из интернета.</br></br>
-![image](https://github.com/Barbariskaa/Biba/assets/129290831/b5176621-4a1f-4b57-9c7f-865861825c30)</br></br>
-Подтягивать подсказки из бинга (через /suggestion после указанного в URL режима).</br></br>
-![image](https://user-images.githubusercontent.com/129290831/236729981-42f4cbf8-abbd-4deb-9a70-1a1cb5917119.png)
+## ¿Qué se puede hacer?
+Confuso.</br>
+14-20k tokens.</br>
+Codificación en un flujo de trabajo funcional (mejor que Scala).</br>
+Extracción de datos de Internet.</br></br>
+![imagen](https://github.com/Barbariskaa/Biba/assets/129290831/b5176621-4a1f-4b57-9c7f-865861825c30)</br></br>
+Obtención de sugerencias de Bing (a través de /suggestion después del modo especificado en la URL).</br></br>
+![imagen](https://user-images.githubusercontent.com/129290831/236729981-42f4cbf8-abbd-4deb-9a70-1a1cb5917119.png)
 
-## Что по куму?
-Ответы с сервера фильтруются посреди стрима, прямо как в чае. В среднем обрубает на 100 токенах и до нескольких сотен. Зависит от выбранного режима.<br>
-Возможно это ограничение можно обойти, если повозиться с промптами.</br>
-Остановленные ответы соединяются в один большой.</br>
-Также банят. Могут забанить за один день, а могут и вовсе нет. Решается перерегом.</br>
-С 29.05.2023г. с Российских IP могут возникать проблемы в работе если пользоваться скриптом без VPN.
+## ¿Y respecto a los problemas?
+Las respuestas del servidor se filtran en medio del flujo, como en un té. En promedio, se eliminan alrededor de 100 tokens y hasta varios cientos. Depende del modo seleccionado.<br>
+Es posible que este límite se pueda evitar si se trabaja con los prompts.</br>
+Las respuestas detenidas se unen en una sola.</br>
+También hay bloqueos. Pueden banear en un día o tal vez no. Se resuelve recargando.</br>
+A partir del 29 de mayo de 2023, puede haber problemas de funcionamiento desde IPs rusas si se utiliza el script sin VPN.
 
-## Как поставить?
-Клонируем репозиторий и запускаем start.bat / start.sh</br>
-Команды которые нужно ввести перед запуском start.sh на Linux:
+## Cómo instalar en Termux
+Para instalar Biba en Termux, sigue estos pasos:
 
-```
-chmod 775 start.sh
-sudo apt-update
-sudo apt-get install python-is-python3
-sudo apt install python3.10-venv
-./start.sh
-```
+1. Abre Termux en tu dispositivo.
 
-После установки нужно собрать куки. Они не обязательны, но без них частые проблемы с работой скрипта. Ниже описано как получить их:<br>
-* [Логинимся](https://login.live.com/login.srf) или [регистрируем](https://signup.live.com/signup) учетку в Майкрософт.
-* Заходим в сам [чат](https://www.bing.com/search?q=Bing+AI&showconv=1&wlsso=0) с Бингом с Эджа. Если отобразился поисковик, а не чат, ниже описано как заставить чат работать: 
+2. Clona el repositorio Biba ejecutando el siguiente comando:
 
-Не через Edge придется ставить сторонний юзерагент. Можно поставить следующий:</br> `Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51`</br></br>
-Также, санкционным анонам придется повозиться с доступом к Бингу. Рекомендую использовать впн и чистить куки, затем искать в самом бинге Bing AI или перейти по ссылке выше. Если нет кнопки перехода в чат, значит нужно либо чистить куки еще раз, выйдя из учетной записи в браузере и поисковике, либо пробовать другой айпи впна.</br></br>
-![image](https://user-images.githubusercontent.com/129290831/236732426-91d87aa3-32e2-4f87-9758-ac5c4b222a71.png) </br>
+   ```shell
+   git clone https://github.com/Barbariskaa/Biba.git
+   ```
+Esto descargará el código fuente de Biba en tu directorio actual.
 
-После успешного захода и открытия чата, нужно экспортировать сами куки. Для этого устанавливаем следующий плагин:
-* Chrome/Edge: https://chrome.google.com/webstore/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm
-* Firefox: https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/
-
-Открываем расширение Cookie Editor. 
-* Жмем export снизу справа расширения, жем `Export as JSON`. Куки сохранятся в буфер.
-* Заходим в папку со скриптом.
-* Создаем файл cookies.json.
-* Открываем файл в текстовом редакторе и вставляем скопированный текст куки файла. Сохраняем.
-* Затем запускаем сам скрипт через батник. 
- 
-После этого должно заработать.
-
-# Отдельные упоминания и благодарности
-https://github.com/acheong08/EdgeGPT</br>
-https://github.com/InterestingDarkness/EdgeGPT</br>
+1. Navega al directorio "Biba" utilizando el comando "cd". Ejecuta el siguiente comando para hacerlo:
+    ```shell
+    cd Biba
+     ```
+    
+2. Una vez que estés en el directorio "Biba", ejecuta el archivo "start.sh" con el siguiente comando:
+     ```shell
+    sh start.sh
+     ```
