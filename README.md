@@ -44,7 +44,7 @@ Esto descargará el código fuente de Biba en tu directorio actual.
 
      Esto lo instala e inicia.
    
-5. Si quieres volver a iniciarlo (Sera mas rapido que la instalacion) solo tienes que abrir el directorio con:
+5. Si quieres volver a iniciarlo  solo tienes que abrir el directorio con:
 
      ```shell
     cd Bing-Termux
@@ -52,8 +52,9 @@ Esto descargará el código fuente de Biba en tu directorio actual.
    Y ejecutar con este ultimo:
 
      ```shell
-    sh iniciar.sh
+    sh instalar.sh
      ```
+   Sera mas rapido al ya estar instalado.
      
 ## Captcha
 Si te encuentras con problemas como el Captcha, la solución es relativamente sencilla. Sigue estos pasos para resolverlo:
