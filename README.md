@@ -1,23 +1,24 @@
 <h1 align="center">Biba</h1>
 
 ## ¿Qué es esto?
-Conexión del bot GPT-4 Sidney desde Bing a la Taberna
+Conexión del bot GPT-4 Sidney desde Bing a Tavern o SillyTavern desde Termux.
 
-## ¿Qué se puede hacer?
-Confuso.</br>
-14-20k tokens.</br>
-Codificación en un flujo de trabajo funcional (mejor que Scala).</br>
-Extracción de datos de Internet.</br></br>
-![imagen](https://github.com/Barbariskaa/Biba/assets/129290831/b5176621-4a1f-4b57-9c7f-865861825c30)</br></br>
-Obtención de sugerencias de Bing (a través de /suggestion después del modo especificado en la URL).</br></br>
-![imagen](https://user-images.githubusercontent.com/129290831/236729981-42f4cbf8-abbd-4deb-9a70-1a1cb5917119.png)
+## ¿Como Obtener la cookies?
 
-## ¿Y respecto a los problemas?
-Las respuestas del servidor se filtran en medio del flujo, como en un té. En promedio, se eliminan alrededor de 100 tokens y hasta varios cientos. Depende del modo seleccionado.<br>
-Es posible que este límite se pueda evitar si se trabaja con los prompts.</br>
-Las respuestas detenidas se unen en una sola.</br>
-También hay bloqueos. Pueden banear en un día o tal vez no. Se resuelve recargando.</br>
-A partir del 29 de mayo de 2023, puede haber problemas de funcionamiento desde IPs rusas si se utiliza el script sin VPN.
+## ¿Tiene algun limite?
+Sí, existe un límite diario, pero no es excesivo.
+
+## Problemas
+Si te encuentras con problemas como el Captcha, la solución es relativamente sencilla. Sigue estos pasos para resolverlo:
+
+1. Ve a la aplicación de Bing en tu navegador web y accede con la misma cuenta desde la cual obtuviste la cookie.
+
+2. Inicia una conversación con Bing enviando al menos 2 mensajes. Esto debería ser suficiente para solucionar el problema del Captcha.
+
+Recuerda que es importante que utilices la misma cuenta desde la cual obtuviste la cookie para garantizar una solución exitosa.
+
+## Baneos
+El ban, un miedo de algunas personas, "es raro que te baneen ya que desde las mismas La documentación establece literalmente que el modelo no está diseñado para seguir estrictamente las reglas que se le indican en sus indicaciones,by u/Successful_Cap_390", Asi que los jailbreak no son un problemas, a menos que lo uses para cosas ilegales como fabricacion de codigos maliciosos o como crear cosas ilegales, te recuerdo que bing usa tu ip al navegar por internet.
 
 ## Cómo instalar en Termux
 Para instalar Biba en Termux, sigue estos pasos:
