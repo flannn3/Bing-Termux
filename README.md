@@ -31,7 +31,7 @@ Esto descargará el código fuente de Biba en tu directorio actual.
     cd Bing-Termux
      ```
     
-2. Una vez que estés en el directorio "Biba", ejecuta el archivo "instalacion.sh" con el siguiente comando:
+2. Una vez que estés en el directorio "bing", ejecuta el archivo "instalacion.sh" con el siguiente comando:
 
      ```shell
     sh instalacion.sh
